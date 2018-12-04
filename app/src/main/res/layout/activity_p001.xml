@@ -22,22 +22,71 @@
                 android:id="@+id/mb001"
                 android:layout_width="match_parent"
                 android:layout_height="302dp"
-                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/latte" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latte"
+                android:textColor="#000000"
+                android:textSize="25sp"/>
 
             <ImageButton
                 android:id="@+id/mb002"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/cappuccino" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cappuccino"
+                android:textColor="#000000"
+                android:textSize="25sp"/>
 
             <ImageButton
                 android:id="@+id/mb003"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/flatwhite" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FlatWhite"
+                android:textColor="#000000"
+                android:textSize="25sp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mocha" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mocha"
+                android:textColor="#000000"
+                android:textSize="25sp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/affogato" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Affogato"
+                android:textColor="#000000"
+                android:textSize="25sp"/>
         </LinearLayout>
     </ScrollView>
 
