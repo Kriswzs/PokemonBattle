@@ -1,6 +1,7 @@
 package com.example.kriswang.mp6;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,5 +40,10 @@ public class MainActivity extends AppCompatActivity {
     public void openActivityp002() {
         Intent intent = new Intent(this, p002.class);
         startActivity(intent);
+    }
+    public void browser(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse
+                ("https://www.starbucks.com"));
+        startActivity(browserIntent);
     }
 }
