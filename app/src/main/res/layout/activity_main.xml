@@ -58,14 +58,13 @@
         app:srcCompat="@drawable/milk" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/b002"
         android:layout_width="277dp"
         android:layout_height="216dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
         android:layout_marginBottom="8dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"

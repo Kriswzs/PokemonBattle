@@ -19,21 +19,21 @@
 
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/mb001"
                 android:layout_width="match_parent"
                 android:layout_height="302dp"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/latte" />
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/mb002"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/cappuccino" />
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/mb003"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitCenter"
