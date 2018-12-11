@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".mp002">
 
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Extract 1 shot of espresso into a cup•
+        Add steamed milk• Add 2-3cm of
+        micro-foam on top of the steamed milk•
+        Sprinkle chocolate on top of the coffee"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 </android.support.constraint.ConstraintLayout>
