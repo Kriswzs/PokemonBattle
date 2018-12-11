@@ -17,7 +17,7 @@
 
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/nb001"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/espresso" />
@@ -31,7 +31,7 @@
                 android:textColor="#000000"/>
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/nb002"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/ristretto" />
@@ -45,7 +45,7 @@
                 android:textColor="#000000"/>
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/nb003"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/americano" />

@@ -10,6 +10,8 @@ public class p001 extends AppCompatActivity {
     private ImageButton mb001;
     private ImageButton mb002;
     private ImageButton mb003;
+    private ImageButton mb004;
+    private ImageButton mb005;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,20 @@ public class p001 extends AppCompatActivity {
                 openActivityp103();
             }
         });
+        mb004 = findViewById(R.id.mb004);
+        mb004.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityp104();
+            }
+        });
+        mb005 = findViewById(R.id.mb005);
+        mb005.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityp105();
+            }
+        });
     }
 
     public void openActivityp101() {
@@ -51,6 +67,16 @@ public class p001 extends AppCompatActivity {
 
     public void openActivityp103() {
         Intent intent = new Intent(this, mp003.class);
+        startActivity(intent);
+    }
+
+    public void openActivityp104() {
+        Intent intent = new Intent(this, mp004.class);
+        startActivity(intent);
+    }
+
+    public void openActivityp105() {
+        Intent intent = new Intent(this, mp005.class);
         startActivity(intent);
     }
 }

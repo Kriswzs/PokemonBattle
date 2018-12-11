@@ -21,7 +21,12 @@
         <activity android:name=".p002" />
         <activity android:name=".mp001" />
         <activity android:name=".mp002" />
-        <activity android:name=".mp003"></activity>
+        <activity android:name=".mp003" />
+        <activity android:name=".mp004" />
+        <activity android:name=".mp005" />
+        <activity android:name=".np001" />
+        <activity android:name=".np002" />
+        <activity android:name=".np003"></activity>
     </application>
 
 </manifest>
