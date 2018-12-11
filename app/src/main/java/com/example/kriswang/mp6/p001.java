@@ -22,60 +22,60 @@ public class p001 extends AppCompatActivity {
         mb001.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityp101();
+                openActivitymp001();
             }
         });
         mb002 = findViewById(R.id.mb002);
         mb002.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityp102();
+                openActivitymp002();
             }
         });
         mb003 = findViewById(R.id.mb003);
         mb003.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityp103();
+                openActivitymp003();
             }
         });
         mb004 = findViewById(R.id.mb004);
         mb004.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityp104();
+                openActivitymp004();
             }
         });
         mb005 = findViewById(R.id.mb005);
         mb005.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityp105();
+                openActivitymp005();
             }
         });
     }
 
-    public void openActivityp101() {
+    public void openActivitymp001() {
         Intent intent = new Intent(this, mp001.class);
         startActivity(intent);
     }
 
-    public void openActivityp102() {
+    public void openActivitymp002() {
         Intent intent = new Intent(this, mp002.class);
         startActivity(intent);
     }
 
-    public void openActivityp103() {
+    public void openActivitymp003() {
         Intent intent = new Intent(this, mp003.class);
         startActivity(intent);
     }
 
-    public void openActivityp104() {
+    public void openActivitymp004() {
         Intent intent = new Intent(this, mp004.class);
         startActivity(intent);
     }
 
-    public void openActivityp105() {
+    public void openActivitymp005() {
         Intent intent = new Intent(this, mp005.class);
         startActivity(intent);
     }

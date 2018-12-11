@@ -20,36 +20,36 @@ public class p002 extends AppCompatActivity {
         nb001.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityp201();
+                openActivitynp001();
             }
         });
         nb002 = findViewById(R.id.mb002);
         nb002.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityp202();
+                openActivitynp002();
             }
         });
         nb003 = findViewById(R.id.mb003);
         nb003.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityp203();
+                openActivitynp003();
             }
         });
     }
 
-    public void openActivityp201() {
+    public void openActivitynp001() {
         Intent intent = new Intent(this, np001.class);
         startActivity(intent);
     }
 
-    public void openActivityp202() {
+    public void openActivitynp002() {
         Intent intent = new Intent(this, np002.class);
         startActivity(intent);
     }
 
-    public void openActivityp203() {
+    public void openActivitynp003() {
         Intent intent = new Intent(this, np003.class);
         startActivity(intent);
     }
